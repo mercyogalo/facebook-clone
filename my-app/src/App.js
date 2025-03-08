@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import './App.css';
 import Description from './Description';
+import Image from './Image';
 
 function App() {
 
@@ -29,6 +30,7 @@ if (click>1){
    
 <Description />
   
+  <Image />
 
 <button className="mt-2 bg-danger text-light" onClick={handleClick}>
 Like {counter}

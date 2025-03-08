@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import './App.css';
+import Description from './Description';
 
 function App() {
 
@@ -23,13 +24,19 @@ if (click>1){
 
   return (
     <div className="App">
-     
+      <div className='row'>
+      <div className='col-sm-5'>
+   
+<Description />
+  
 
 <button className="mt-2 bg-danger text-light" onClick={handleClick}>
 Like {counter}
 </button>
 
 
+    </div>
+    </div>
     </div>
   );
 }
